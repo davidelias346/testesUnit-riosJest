@@ -1,7 +1,7 @@
 const database = [
-    "Juão", 
-    "Zézim",
-    "Juaquim"
+  "Juão", 
+  "Zézim",
+  "Juaquim"
 ]
 
 export { database }

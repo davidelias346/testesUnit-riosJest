@@ -1,10 +1,12 @@
 {
-  "name": "testes-unitarios-jest",
+  "name": "dio-node-jest",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
+    "build": "rm -rf ./build && tsc",
+    "start": "node build/index.js",
     "dev": "ts-node-dev src/index.ts",
     "test": "jest"
   },
